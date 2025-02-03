@@ -1,4 +1,4 @@
-public class  {
+public class Arithmetic_operators  {
     public static void main(String[] a){
         //Arithmetic operators
         int num1=10,num2=5;
