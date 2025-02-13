@@ -1,6 +1,6 @@
 public class Mobile_company_oops {
     public static void main(String[] args) {
-        Iqoo iq = new Iqoo();
+        iqoo iq = new iqoo();
         iq.model="Iqoo Neo9 Pro 5G";
         iq.color="Conqueror Black";
         iq.processer="Snapdragon 8 Gen 2";
@@ -13,7 +13,8 @@ public class Mobile_company_oops {
         iq.display();
     }
 }
-class Iqoo{
+
+class iqoo{
     String model;
     String color;
     String processer;
@@ -24,7 +25,8 @@ class Iqoo{
     int frontCamera;
     int camera;
 
-void display(){
+
+    void display(){
     System.out.println("Model: "+model);
     System.out.println("Color:"+color);
     System.out.println("CPU:"+processer);
@@ -34,5 +36,5 @@ void display(){
     System.out.println("ROM: "+rom+"GB");
     System.out.println("Front Camera: "+frontCamera+"MP");
     System.out.println("Camera: "+camera+"MP");
-}
+  }
 }
